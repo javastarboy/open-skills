@@ -44,6 +44,12 @@
 | `social-creator` | 社交媒体爆款内容创作工具 | 多平台文案、标题生成 |
 | `ai-news-xiaohongshu` | AI 资讯小红书创作技能 | 小红书图文、配图生成 |
 
+### 🏞️ 技能的图片示例
+> 大家也可以进入到具体的技能目录下的 /output 目录下看 html 示例效果。 关于文案部分，大家可以安装技能后自行尝试，效果非常惊艳～
+<img width="968" height="1548" alt="40f1a6ae9e2daa0bafd6ae61ac3213e8" src="https://github.com/user-attachments/assets/683a03ac-79aa-4169-95c9-e0cb5ef617a9" />
+<img width="842" height="4301" alt="f5bcff7248cb68843283cc070d388989" src="https://github.com/user-attachments/assets/743e1c92-f8be-4c33-947a-927ed33af46a" />
+<img width="2280" height="1516" alt="9e79c163f470312f848a5194d9943287" src="https://github.com/user-attachments/assets/79e619a8-2c66-4bba-92b3-948d8b309a55" />
+
 > 💡 更多技能持续开发中，敬请期待！
 
 ---
