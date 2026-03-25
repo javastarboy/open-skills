@@ -111,7 +111,7 @@
 |------|------|
 | 👤 **技能作者** |[AGI 舰长](https://www.yuque.com/lhyyh/ai/conactus) |
 | 💬 **联系微信** | [LHYYH0001](https://www.yuque.com/lhyyh/ai/conactus) |
-| 💬 **Github** | [open-skills](https://github.com/javastarboy/open-skills)) |
+| 💬 **Github** | [open-skills](https://github.com/javastarboy/open-skills) |
 | 📝 **博客** | [https://www.yuque.com/lhyyh](https://www.yuque.com/lhyyh) |
 
 ---
