@@ -46,13 +46,15 @@
 
 ### 🏞️ 技能的图片示例
 > 大家也可以进入到具体的技能目录下的 /output 目录下看 html 示例效果。 关于文案部分，大家可以安装技能后自行尝试，效果非常惊艳～
+
 <table align="center">
   <tr>
-    <td align="center"><img src="[图片1链接](https://github.com/user-attachments/assets/683a03ac-79aa-4169-95c9-e0cb5ef617a9)" width="400" /></td>
-    <td align="center"><img src="[图片2链接](https://github.com/user-attachments/assets/743e1c92-f8be-4c33-947a-927ed33af46a)" width="400" /></td>
-    <td align="center"><img src="[图片2链接](https://github.com/user-attachments/assets/79e619a8-2c66-4bba-92b3-948d8b309a55)" width="400" /></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/683a03ac-79aa-4169-95c9-e0cb5ef617a9" width="400" alt="文章润色示例" /></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/743e1c92-f8be-4c33-947a-927ed33af46a" width="400" alt="爆款文案示例" /></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/79e619a8-2c66-4bba-92b3-948d8b309a55" width="400" alt="小红书图文示例" /></td>
   </tr>
 </table>
+
 > 💡 更多技能持续开发中，敬请期待！
 
 ---
@@ -112,8 +114,8 @@
 
 <table align="center">
   <tr>
-    <td align="center"><img src="[个人企微二维码](https://github.com/user-attachments/assets/b2a4a956-9ea5-47db-b666-9a323975bf6d)" width="400" /></td>
-    <td align="center"><img src="[微信交流群](https://github.com/user-attachments/assets/b466b6d1-9552-4f89-bd66-276b0009f6e0)" width="400" /></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/b2a4a956-9ea5-47db-b666-9a323975bf6d" width="200" alt="个人企微二维码" /><br/>个人企微</td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/b466b6d1-9552-4f89-bd66-276b0009f6e0" width="200" alt="微信交流群" /><br/>微信交流群</td>
   </tr>
 </table>
 ---
