@@ -105,6 +105,8 @@
 
 ## 📬 联系作者
 
+<div align="center">
+
 | 渠道 | 信息 |
 |------|------|
 | 👤 **技能作者** | AGI 舰长 |
@@ -112,12 +114,24 @@
 | 📝 **博客** | [语雀主页](https://www.yuque.com/lhyyh) |
 | 📮 **联系表单** | [点击联系](https://www.yuque.com/lhyyh/ai/conactus) |
 
-<table align="center">
+---
+
+### 📱 扫码联系
+
+<table>
   <tr>
-    <td align="center"><img src="https://github.com/user-attachments/assets/b2a4a956-9ea5-47db-b666-9a323975bf6d" width="200" alt="个人企微二维码" /><br/>个人企微</td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/b466b6d1-9552-4f89-bd66-276b0009f6e0" width="200" alt="微信交流群" /><br/>微信交流群</td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b2a4a956-9ea5-47db-b666-9a323975bf6d" width="180" alt="个人企微二维码" />
+      <br/><sub>个人企微</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b466b6d1-9552-4f89-bd66-276b0009f6e0" width="180" alt="微信交流群" />
+      <br/><sub>微信交流群</sub>
+    </td>
   </tr>
 </table>
+
+</div>
 ---
 
 ## 📄 许可证
