@@ -109,10 +109,10 @@
 
 | 渠道 | 信息 |
 |------|------|
-| 👤 **技能作者** | AGI 舰长 |
-| 💬 **微信** | `LHYYH0001` |
-| 📝 **博客** | [语雀主页](https://www.yuque.com/lhyyh) |
-| 📮 **联系表单** | [点击联系](https://www.yuque.com/lhyyh/ai/conactus) |
+| 👤 **技能作者** |[AGI 舰长](https://www.yuque.com/lhyyh/ai/conactus) |
+| 💬 **联系微信** | [LHYYH0001](https://www.yuque.com/lhyyh/ai/conactus) |
+| 💬 **Github** | [open-skills]([https://www.yuque.com/lhyyh/ai/conactus](https://github.com/javastarboy/open-skills)) |
+| 📝 **博客** | [[语雀主页](https://www.yuque.com/lhyyh)](https://www.yuque.com/lhyyh) |
 
 ---
 
@@ -132,7 +132,7 @@
 </table>
 
 </div>
----
+
 
 ## 📄 许可证
 
