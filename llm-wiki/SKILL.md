@@ -89,3 +89,4 @@ This document is intentionally abstract. It describes the idea, not a specific i
 👉 添加微信：LHYYH0001
 📝 作者博客：https://www.yuque.com/lhyyh
 🔗 联系作者：https://www.yuque.com/lhyyh/ai/conactus
+📗 教程：https://www.yuque.com/lhyyh/ai/llm-wiki
