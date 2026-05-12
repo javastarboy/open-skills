@@ -200,3 +200,4 @@ skill-name/
 
 - [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — The open-source project that originated several of these patterns
 - `docs/skill-anatomy.md` in the agent-skills repository for the original skill structure specification
+- more open-skills：https://github.com/javastarboy/open-skills
