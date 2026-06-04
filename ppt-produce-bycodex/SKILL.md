@@ -1,6 +1,6 @@
 ---
 name: ppt-produce-bycodex
-description: Create and iterate enterprise application software solution PPTs as full-page PNG slides and optional PPTX decks. Use when the user wants to start, design, generate, redraw, repair, batch-produce, or package a business/consulting/enterprise software solution presentation, especially with imagegen/gpt-image-2, PPT PNG pages, contact sheets, or PPTX assembly.
+description: Create and iterate enterprise application software solution PPTs as full-page PNG slides and optional PPTX decks. Use when the user wants to start, design, generate, redraw, repair, batch-produce, or package a business/consulting/enterprise software solution presentation, especially with imagegen/gpt-image-2, PPT PNG pages, contact sheets, PPTX assembly, or 413/too-large fallback handling.
 ---
 
 # PPT Produce by Codex
@@ -63,7 +63,20 @@ When generating or redrawing PPT PNG pages:
 
 If a model returns unexpectedly small images below 2K without user permission, stop batch generation and warn that the provider/model route may be degraded.
 
-If the same repair task returns `response too large` three times via different attempts, stop and create a handoff prompt instead of retrying indefinitely.
+## 413 / Too-Large Hard Stop
+
+Treat these as the same failure family: `413`, `Payload Too Large`, `Request Entity Too Large`, `response too large`, `upstream_status: HTTP 413`, `CC Switch local proxy failed`, or oversized Codex `/responses` requests.
+
+Use this retry policy:
+
+1. If a native 4K generation/edit attempt fails once with a too-large error, do not retry 4K.
+2. Downgrade that page to native 2K high quality with the same content density and business richness.
+3. Do not compress the slide into an overly simple 4K page just to make the request succeed. If 2K is too crowded, split the content into more pages instead of hollowing it out.
+4. In the 2K stage, make at most 2 attempts total for that page. If both fail for any reason, stop the generation process.
+5. After stopping, do not call imagegen again, do not resend large images, and do not re-read large artifacts into context.
+6. Create a compact handoff prompt under the project `workspace/` if tools still work, or return a compact handoff in the final response if file writing is unavailable.
+
+The handoff prompt must include only: project path, current task, failed page(s), last error family, successful output paths, pending output paths, and the next recommended action. Do not embed large images, base64, long prompts, or bulk file contents.
 
 ## Local Repair Rules
 
