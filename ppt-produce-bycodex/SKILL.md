@@ -41,11 +41,24 @@ Report full absolute paths for every created or modified file.
 2. Collect missing intake fields before generating.
 3. Read `references/ppt-production-guide.md` for detailed guardrails.
 4. Build or update the PPT storyline: background, positioning, overall architecture, core capabilities, scenarios, value, implementation path.
-5. Create a page plan with page title, page type, visible text, source assets, and generation method.
-6. Generate 2-4 sample pages before batching when a visual direction is not yet approved.
-7. Use small batches, staging folders, and contact sheets. Do not overwrite approved PNGs without a backup.
-8. Only assemble PPTX when the user asks or after a meaningful batch is confirmed; otherwise ask whether to generate PPTX.
-9. If business content changes, sync the scheme MD / PPT outline / PNG page content so future delivery and demos stay consistent.
+5. Establish the title-bar sample before generating a batch. Default to `assets/titlebar-template/enterprise-solution-titlebar-4k.png`; ask whether the user wants a different title style.
+6. Create a page plan with page title, page type, visible text, source assets, title-bar usage, and generation method.
+7. Generate 3-5 sample pages plus the confirmed title-bar style before batching when a visual direction is not yet approved.
+8. Use small batches, staging folders, and contact sheets. Do not overwrite approved PNGs without a backup.
+9. Only assemble PPTX when the user asks or after a meaningful batch is confirmed; otherwise ask whether to generate PPTX.
+10. If business content changes, sync the scheme MD / PPT outline / PNG page content so future delivery and demos stay consistent.
+
+## Title-Bar Standard
+
+For a new PPT drawing task, confirm the main title-bar style as part of the first sample round.
+
+- Default title-bar reference PNG: `assets/titlebar-template/enterprise-solution-titlebar-4k.png`.
+- Title-bar details: `references/titlebar-template.md`.
+- Generate 3-5 representative sample pages before bulk production; the sample set must include normal content, dense diagram/screenshot, and at least one page using the title-bar reference.
+- After the user confirms the title-bar sample, use that same main title-bar style across all normal content pages.
+- Do not mix different content-page title systems unless the user explicitly asks for another style.
+- Use generic enterprise wording in prompts; do not copy industry-specific words from any reference project into new projects.
+- For cover, directory, and section divider pages, variation is allowed, but content pages must keep the confirmed title-bar system.
 
 ## Image Generation Rules
 
