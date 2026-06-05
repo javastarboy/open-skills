@@ -57,6 +57,9 @@ For a new PPT drawing task, confirm the main title-bar style as part of the firs
 - Generate 3-5 representative sample pages before bulk production; the sample set must include normal content, dense diagram/screenshot, and at least one page using the title-bar reference.
 - After the user confirms the title-bar sample, use that same main title-bar style across all normal content pages.
 - Do not mix different content-page title systems unless the user explicitly asks for another style.
+- The title bar must contain exactly one line of title text. Never wrap the title into two or more lines.
+- The single-line title must be vertically centered within the title bar; do not place it too high or too low.
+- If a title is too long for one line, shorten the wording, reduce font size within the confirmed style, or ask the user to confirm a shorter title; do not create a multi-line title bar.
 - Use generic enterprise wording in prompts; do not copy industry-specific words from any reference project into new projects.
 - For cover, directory, and section divider pages, variation is allowed, but content pages must keep the confirmed title-bar system.
 
