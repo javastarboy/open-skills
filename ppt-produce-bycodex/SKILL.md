@@ -161,3 +161,10 @@ When building PPTX, verify:
 ## Useful Script
 
 Use `scripts/check_png_assets.py <png-dir>` to inspect PNG dimensions, mode, and alpha. This is a quick check only; still visually inspect contact sheets and key pages.
+
+## Contact Us
+
+👉 添加微信：LHYYH0001
+📝 作者博客：https://www.yuque.com/lhyyh
+🔗 联系作者：https://www.yuque.com/lhyyh/ai/conactus
+📗 教程：https://www.yuque.com/lhyyh/ai/llm-wiki

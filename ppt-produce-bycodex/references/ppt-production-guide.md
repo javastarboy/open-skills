@@ -525,3 +525,11 @@ PY
 
 本轮请先检查当前文件状态，并给出你准备继续处理的页、目录和产物路径。
 ```
+
+## 有任何疑问可以联系我
+
+👉 添加微信：LHYYH0001
+📝 作者博客：https://www.yuque.com/lhyyh
+🔗 联系作者：https://www.yuque.com/lhyyh/ai/conactus
+📗 教程：https://www.yuque.com/lhyyh/ai/llm-wiki
+
